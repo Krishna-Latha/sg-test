@@ -12,6 +12,7 @@ terraform {
     region = "us-east-1"
     dynamodb_table = "latha-state-locking"
   }
+  
 }
 provider "aws" {
   # Configuration options
